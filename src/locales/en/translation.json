@@ -1,0 +1,316 @@
+{
+  "home": {
+    "welcome": "Welcome to the Interstellar Experience",
+    "description": "Discover the wonders of our solar system and beyond.",
+    "explore": "Explore Now"
+  },
+  "navbar": {
+    "solarSystem": "Solar System",
+    "sun": "Sun",
+    "moon": "Moon",
+    "mars": "Mars"
+  },
+  "solarSystem": {
+    "title": "Solar System",
+    "description": "Explore the planets and celestial bodies in our solar system.",
+    "backButton": "Back" 
+  },
+  "planets": {
+    "mercury": {
+      "name": "Mercury",
+      "content": [
+        {
+          "key": "1",
+          "label": "Location and Size",
+          "text": [
+            "Mercury is the closest planet to the Sun and the smallest in the solar system.",
+            "Its diameter is 4878 km."
+          ]
+        },
+        {
+          "key": "2",
+          "label": "Rotation and Orbit",
+          "text": [
+            "It rotates on its axis in 59 days (length of a day on Mercury).",
+            "It takes 88 days to orbit the Sun (length of a year on Mercury)."
+          ]
+        },
+        {
+          "key": "3",
+          "label": "Surface and Terrain",
+          "text": [
+            "Mercury's surface resembles the Moon, with many meteorite craters.",
+            "These craters were formed by meteorite impacts."
+          ]
+        },
+        {
+          "key": "4",
+          "label": "Atmosphere and Temperature",
+          "text": [
+            "Mercury has no atmosphere to protect it.",
+            "As a result, there is a large temperature difference between day and night."
+          ]
+        }
+      ]
+    },
+    "venus": {
+      "name": "Venus",
+      "content": [
+        {
+          "key": "1",
+          "label": "Similarity to Earth",
+          "text": [
+            "Venus is the closest planet to Earth in terms of size and mass, often called 'Earth's sister.'"
+          ]
+        },
+        {
+          "key": "2",
+          "label": "Brightness and Atmosphere",
+          "text": [
+            "It is the brightest object in the night sky due to its high reflectivity, despite being shrouded in thick clouds."
+          ]
+        },
+        {
+          "key": "3",
+          "label": "Rotation and Motion",
+          "text": [
+            "Venus has phases similar to the Moon and rotates slowly from east to west, taking 243 days for a full rotation."
+          ]
+        },
+        {
+          "key": "4",
+          "label": "Composition and Atmosphere",
+          "text": [
+            "Its atmosphere is 96% carbon dioxide and 3.5% nitrogen, causing a greenhouse effect and temperatures up to 464°C."
+          ]
+        },
+        {
+          "key": "5",
+          "label": "Surface",
+          "text": [
+            "Its surface is dominated by flat volcanic plains with highlands and valleys covering about 27% of the surface."
+          ]
+        }
+      ]
+    },
+    "earth": {
+      "name": "Earth",
+      "content": [
+        {
+          "key": "1",
+          "label": "Structure and Atmosphere",
+          "text": [
+            "Earth consists of three main layers: crust, mantle, and core.",
+            "Its atmosphere contains nitrogen and oxygen, making it habitable."
+          ]
+        },
+        {
+          "key": "2",
+          "label": "Natural Phenomena",
+          "text": [
+            "Earth is characterized by volcanoes and earthquakes due to tectonic plate movement.",
+            "It has rivers, lakes, and oceans covering about 71% of its surface."
+          ]
+        },
+        {
+          "key": "3",
+          "label": "Life on Earth",
+          "text": [
+            "Earth is the only known planet with life.",
+            "Life forms range from microorganisms to humans."
+          ]
+        },
+        {
+          "key": "4",
+          "label": "Climate and Weather",
+          "text": [
+            "Climate varies from tropical to polar regions.",
+            "Weather patterns are influenced by Earth's rotation and its position relative to the Sun."
+          ]
+        }
+      ]
+    },
+    "mars": {
+      "name": "Mars",
+      "content": [
+        {
+          "key": "1",
+          "label": "Appearance and Color",
+          "text": [
+            "Its red color is due to iron oxide in its soil."
+          ]
+        },
+        {
+          "key": "2",
+          "label": "Physical Characteristics",
+          "text": [
+            "It is the least dense of the terrestrial planets; larger than Mercury but smaller than Venus."
+          ]
+        },
+        {
+          "key": "3",
+          "label": "Surface and Terrain",
+          "text": [
+            "Its surface features vast deserts with moving sand dunes, dry riverbeds (indicating past water flow), polar ice caps, and volcanic deposits.",
+            "It hosts the highest mountain in the solar system (Olympus Mons, 25 km tall) and a rift valley stretching 5000 km."
+          ]
+        },
+        {
+          "key": "4",
+          "label": "Atmosphere",
+          "text": [
+            "Its thin atmosphere is primarily carbon dioxide, allowing visibility of the surface. The low pressure currently prevents liquid water, though evidence suggests possible groundwater in the past."
+          ]
+        }
+      ]
+    },
+    "jupiter": {
+      "name": "Jupiter",
+      "content": [
+        {
+          "key": "1",
+          "label": "Size and Rotation",
+          "text": [
+            "It is the largest planet in the solar system by size and mass, rotating rapidly (a full rotation in about 10 hours), causing a noticeable bulge at the equator."
+          ]
+        },
+        {
+          "key": "2",
+          "label": "Composition and Atmosphere",
+          "text": [
+            "Its thick atmosphere is primarily hydrogen and helium, with traces of water vapor, methane, and ammonia, visible as light and dark bands."
+          ]
+        },
+        {
+          "key": "3",
+          "label": "Prominent Features",
+          "text": [
+            "It has a Great Red Spot, a massive storm that has persisted since the 17th century."
+          ]
+        },
+        {
+          "key": "4",
+          "label": "Internal Structure and Magnetic Fields",
+          "text": [
+            "Beneath its surface are layers of liquid and metallic hydrogen, with a possible rocky core. It has a strong magnetic field and phenomena like auroras."
+          ]
+        },
+        {
+          "key": "5",
+          "label": "Moons and Rings",
+          "text": [
+            "It has many moons, most notably the Galilean moons (Io, Europa, Ganymede, and Callisto), and faint rings."
+          ]
+        }
+      ]
+    },
+    "saturn": {
+      "name": "Saturn",
+      "content": [
+        {
+          "key": "1",
+          "label": "Physical Characteristics",
+          "text": [
+            "It is the second-largest planet in the solar system and less dense than water, meaning it could float."
+          ]
+        },
+        {
+          "key": "2",
+          "label": "Atmosphere and Rotation",
+          "text": [
+            "Its internal composition is similar to Jupiter's, but with a thinner layer of metallic hydrogen. Its rapid rotation causes a noticeable equatorial bulge."
+          ]
+        },
+        {
+          "key": "3",
+          "label": "Rings",
+          "text": [
+            "It is famous for its stunning rings, made of ice and rock particles, with gaps like the Cassini Division caused by the gravitational influence of its moons."
+          ]
+        },
+        {
+          "key": "4",
+          "label": "Thermal Radiation",
+          "text": [
+            "It emits more thermal energy than it receives from the Sun, at a rate of 1.8 times."
+          ]
+        },
+        {
+          "key": "5",
+          "label": "Moons",
+          "text": [
+            "It has numerous moons, most notably Titan, which has a thick nitrogen atmosphere and possibly methane and ethane oceans."
+          ]
+        }
+      ]
+    },
+    "uranus": {
+      "name": "Uranus",
+      "content": [
+        {
+          "key": "1",
+          "label": "Discovery and Color",
+          "text": [
+            "It was the first planet discovered with a telescope (1781) and is blue due to methane absorbing red light."
+          ]
+        },
+        {
+          "key": "2",
+          "label": "Composition and Atmosphere",
+          "text": [
+            "It has a thick atmosphere of hydrogen and helium with methane, giving it good reflectivity."
+          ]
+        },
+        {
+          "key": "3",
+          "label": "Internal Structure",
+          "text": [
+            "Its surface is liquid hydrogen, with a layer of ice beneath and a possible rocky core."
+          ]
+        },
+        {
+          "key": "4",
+          "label": "Rings and Moons",
+          "text": [
+            "It has faint rings and several small moons."
+          ]
+        }
+      ]
+    },
+    "neptune": {
+      "name": "Neptune",
+      "content": [
+        {
+          "key": "1",
+          "label": "Discovery and Composition",
+          "text": [
+            "Neptune was discovered in 1846 and is known for its deep blue color due to methane in its atmosphere.",
+            "It has a thick atmosphere of hydrogen, helium, and methane."
+          ]
+        },
+        {
+          "key": "2",
+          "label": "Atmosphere and Weather",
+          "text": [
+            "Neptune has the strongest winds in the solar system, reaching speeds of up to 2,100 km/h.",
+            "It has a Great Dark Spot, similar to Jupiter's Great Red Spot, which is a massive storm system."
+          ]
+        },
+        {
+          "key": "3",
+          "label": "Internal Structure",
+          "text": [
+            "Its interior is composed of a mantle of water, ammonia, and methane ices, with a possible rocky core."
+          ]
+        },
+        {
+          "key": "4",
+          "label": "Moons and Rings",
+          "text": [
+            "Neptune has 14 known moons, the largest of which is Triton, and a faint ring system."
+          ]
+        }
+      ]
+    }
+  }
+}

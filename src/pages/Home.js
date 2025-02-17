@@ -5,8 +5,11 @@ import "./Home.css"; // Optional: For custom styling
 import RocketLogo from "../assets/logo/rocket.svg"; // Import the SVG logo
 import spaceBackgroundMP4 from "../assets/videos/space-background.mp4";
 import spaceBackgroundWEBM from "../assets/videos/space-background.webm";
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -56,8 +59,8 @@ const Home = () => {
           alt="Rocket Logo"
           style={{ width: "100px", height: "100px", marginBottom: "1rem" }}
         />
-        <h1>مرحبًا بكم في التجربة بين النجوم</h1>
-        <p>اكتشفوا عجائب نظامنا الشمسي وما بعده.</p>
+        <h1>{t('home.welcome')}</h1>
+        <p>{t('home.description')}</p>
         <Link to="/solar-system">
           <button
             style={{
@@ -81,7 +84,7 @@ const Home = () => {
               e.target.style.color = "white";
             }}
           >
-            استكشف الآن
+            {t('home.explore')}
           </button>
         </Link>
       </div>

@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  font-family: "Noto Kufi Arabic", sans-serif !important; /* Apply font globally */
-  direction: rtl; /* Set default direction to RTL */
+  font-family: "Satoshi", "Noto Kufi Arabic", sans-serif !important; /* Apply Satoshi globally */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: black;
@@ -82,4 +81,14 @@ code {
 /* Increase font size for tabs titles */
 .ant-tabs-tab {
   font-size: 1.2rem !important; /* Increase font size */
+}
+
+body[dir="rtl"] {
+  direction: rtl;
+  font-family: "Noto Kufi Arabic", sans-serif !important; /* Keep Noto Kufi Arabic for RTL */
+}
+
+body[dir="ltr"] {
+  direction: ltr;
+  font-family: "Satoshi", sans-serif !important; /* Use Satoshi for LTR */
 }
