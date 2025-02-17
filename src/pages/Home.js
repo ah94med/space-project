@@ -1,0 +1,92 @@
+import React from "react";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import "./Home.css"; // Optional: For custom styling
+import RocketLogo from "../assets/logo/rocket.svg"; // Import the SVG logo
+import spaceBackgroundMP4 from "../assets/videos/space-background.mp4";
+import spaceBackgroundWEBM from "../assets/videos/space-background.webm";
+
+const Home = () => {
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+      style={{
+        position: "relative",
+        width: "100vw",
+        height: "100vh",
+        overflow: "hidden",
+      }}
+    >
+      {/* Video Background */}
+      <video
+        autoPlay
+        loop
+        muted
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          zIndex: -1,
+        }}
+      >
+        <source src={spaceBackgroundWEBM} type="video/webm" />
+        <source src={spaceBackgroundMP4} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Rest of your existing content */}
+      <div style={{ 
+        position: "relative",
+        zIndex: 1,
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        height: "100vh",
+        justifyContent: "center"
+      }}>
+        {/* Add the SVG logo */}
+        <img
+          src={RocketLogo}
+          alt="Rocket Logo"
+          style={{ width: "100px", height: "100px", marginBottom: "1rem" }}
+        />
+        <h1>مرحبًا بكم في التجربة بين النجوم</h1>
+        <p>اكتشفوا عجائب نظامنا الشمسي وما بعده.</p>
+        <Link to="/solar-system">
+          <button
+            style={{
+              color: "white",
+              borderColor: "white",
+              background: "transparent",
+              padding: "10px 20px",
+              fontSize: "1rem",
+              fontFamily: "inherit",
+              borderRadius: "5px",
+              cursor: "pointer",
+              transition: "all 0.3s ease",
+              border: "1px solid",
+            }}
+            onMouseEnter={(e) => {
+              e.target.style.backgroundColor = "white";
+              e.target.style.color = "black";
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.backgroundColor = "transparent";
+              e.target.style.color = "white";
+            }}
+          >
+            استكشف الآن
+          </button>
+        </Link>
+      </div>
+    </motion.div>
+  );
+};
+
+export default Home; 
