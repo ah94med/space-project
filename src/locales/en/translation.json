@@ -6,9 +6,8 @@
   },
   "navbar": {
     "solarSystem": "Solar System",
-    "sun": "Sun",
-    "moon": "Moon",
-    "mars": "Mars"
+    "moon": "The Moon",
+    "stars": "Stars"
   },
   "solarSystem": {
     "title": "Solar System",
@@ -312,5 +311,251 @@
         }
       ]
     }
+  },
+  "moon": {
+    "name": "The Moon",
+    "content": [
+      {
+        "key": "1",
+        "label": "Orbit Around Earth",
+        "sections": [
+          {
+            "key": "1.1",
+            "label": "Orbit",
+            "text": "The Moon orbits the Earth in an elliptical orbit (oval) with an average distance of 384,400 km."
+          },
+          {
+            "key": "1.2",
+            "label": "Duration",
+            "text": "The Moon takes 27.3 days to complete one orbit around the Earth (orbital period)."
+          },
+          {
+            "key": "1.3",
+            "label": "Synchronous Rotation",
+            "text": "The Moon rotates on its axis at the same rate as it rotates around the Earth, so we always see the same face of the Moon."
+          },
+          {
+            "key": "1.4",
+            "label": "Tilt",
+            "text": "The Moon's orbit is tilted about 5.8 degrees from the plane of the Earth's orbit around the Sun."
+          },
+          {
+            "key": "1.5",
+            "label": "Tides",
+            "text": "The Moon's gravitational influence on the Earth causes the phenomenon of tides in the oceans."
+          },
+          {
+            "key": "1.6",
+            "label": "Distance Variation",
+            "text": "Due to the elliptical shape of the orbit, the Moon's distance ranges between 356,500 km (perigee) and 406,700 km (apogee)."
+          }
+        ]
+      },
+      {
+        "key": "2",
+        "label": "Phases During the Month",
+        "sections": [
+          {
+            "key": "2.1",
+            "label": "First Crescent",
+            "text": "Appears from 1 - 3 of the month and is called the 'new crescent.'",
+            "image": "images/moon/phases/moon_1.png"
+          },
+          {
+            "key": "2.2",
+            "label": "First Quarter",
+            "text": "Appears from 4 - 7 of the month, with half of the Moon facing us illuminated.",
+            "image": "images/moon/phases/moon_2.png"
+          },
+          {
+            "key": "2.3",
+            "label": "First Gibbous",
+            "text": "Appears from 8 - 12 of the month, with the dark part in the shape of a crescent, its base pointing east and the illuminated part pointing towards the sunset.",
+            "image": "images/moon/phases/moon_3.png"
+          },
+          {
+            "key": "2.4",
+            "label": "Full Moon",
+            "text": "Appears from 13 - 15 of the month, marking the completion of approximately 180 degrees.",
+            "image": "images/moon/phases/moon_4.png"
+          },
+          {
+            "key": "2.5",
+            "label": "Terminal Gibbous",
+            "text": "Appears from 16 - 19, with the dark part in the shape of a dark crescent, its base pointing completely west.",
+            "image": "images/moon/phases/moon_5.png"
+          },
+          {
+            "key": "2.6",
+            "label": "Second Quarter",
+            "text": "Appears from 20 - 24, with half of the Moon facing us illuminated.",
+            "image": "images/moon/phases/moon_6.png"
+          },
+          {
+            "key": "2.7",
+            "label": "Last Crescent",
+            "text": "Appears from 25 - 29, with its horns pointing west and the illuminated part pointing towards the Sun.",
+            "image": "images/moon/phases/moon_7.png"
+          },
+          {
+            "key": "2.8",
+            "label": "Darkening Moon",
+            "text": "Appears from 30 - 1 of the month, with the Moon almost completely dark and invisible in the sky. It marks the end of the lunar cycle and the beginning of a new one.",
+            "image": "images/moon/phases/moon_8.png"
+          }
+        ]
+      },
+      {
+        "key": "3",
+        "label": "Lunar Eclipses",
+        "sections": [
+          {
+            "key": "3.1",
+            "label": "Lunar Eclipse",
+            "text": "A lunar eclipse occurs when the Earth comes between the Sun and the Moon, partially or fully blocking the Sun's light from reaching the Moon. It only happens during a full moon.",
+            "image": "images/moon/eclipse/eclipse_1.png"
+          },
+          {
+            "key": "3.2",
+            "label": "Total Eclipse",
+            "text": "Occurs when the Moon fully enters the Earth's shadow (Umbra). The Moon turns red or orange due to the refraction of sunlight in Earth's atmosphere, known as a 'Blood Moon'.",
+            "image": "images/moon/eclipse/eclipse_1.png"
+          },
+          {
+            "key": "3.3",
+            "label": "Partial Eclipse",
+            "text": "Occurs when only part of the Moon enters the Earth's shadow. Part of the Moon appears dark while the rest remains illuminated.",
+            "image": "images/moon/eclipse/eclipse_1.png"
+          },
+          {
+            "key": "3.4",
+            "label": "Penumbral Eclipse",
+            "text": "Occurs when the Moon enters the Earth's penumbra, causing a slight dimming of the Moon's brightness without a clear shadow.",
+            "image": "images/moon/eclipse/eclipse_1.png"
+          },
+          {
+            "key": "3.5",
+            "label": "Duration of Eclipse",
+            "text": "A total lunar eclipse can last for over an hour, while a partial or penumbral eclipse may last for a shorter duration.",
+            "image": "images/moon/eclipse/eclipse_1.png"
+          }
+        ]
+      }
+    ]
+  },
+  "stars": {
+    "title": "Stars",
+    "description": "Explore the fascinating world of stars.",
+    "content": [
+      {
+        "key": "1",
+        "label": "Solar Nebula",
+        "paragraph": "A massive cloud of gas and cosmic dust believed to be the origin of the solar system.",
+        "bullets": [
+          "Composed of hydrogen, helium, and heavier elements.",
+          "Collapsed due to gravity to form the Sun, planets, asteroids, and comets.",
+          "Part of the solar nebula theory of stellar system formation."
+        ],
+        "image": "images/stars/star_1.png"
+      },
+      {
+        "key": "2",
+        "label": "Medium Star",
+        "paragraph": "A star with medium mass, like the Sun, which lives relatively long.",
+        "bullets": [
+          "Its mass ranges from 0.5 to 8 times the mass of the Sun.",
+          "Spends most of its life in the main sequence, fusing hydrogen into helium.",
+          "At the end of its life, it becomes a red giant and then a white dwarf after losing its outer layers."
+        ],
+        "image": "images/stars/star_2.png"
+      },
+      {
+        "key": "3",
+        "label": "Massive Star",
+        "paragraph": "A star with a mass greater than 8 times that of the Sun, burns quickly, and ends in a violent explosion.",
+        "bullets": [
+          "Burns its nuclear fuel quickly, making its lifespan short (a few million years).",
+          "Goes through rapid evolutionary stages, such as becoming a red supergiant and then exploding in a supernova.",
+          "Can eventually transform into a neutron star or a black hole."
+        ],
+        "image": "images/stars/star_3.png"
+      },
+      {
+        "key": "4",
+        "label": "Red Giant",
+        "paragraph": "A stage in the evolution of medium-mass stars when the star exhausts its hydrogen fuel and expands.",
+        "bullets": [
+          "Expands and cools its surface, giving it a red color.",
+          "Continues to fuse helium into heavier elements like carbon and oxygen.",
+          "Gradually loses its outer layers to become a planetary nebula, leaving behind a white dwarf."
+        ],
+        "image": "images/stars/star_4.png"
+      },
+      {
+        "key": "5",
+        "label": "Red Supergiant",
+        "paragraph": "A late stage in the life of a massive star when it expands enormously before exploding.",
+        "bullets": [
+          "Larger than a red giant in terms of size and mass.",
+          "Burns quickly, forming heavy elements like iron.",
+          "Explodes in a supernova, potentially leaving behind a neutron star or a black hole."
+        ],
+        "image": "images/stars/star_5.png"
+      },
+      {
+        "key": "6",
+        "label": "Planetary Nebula",
+        "paragraph": "A glowing gas shell released by a medium-mass star when it reaches the end of its life.",
+        "bullets": [
+          "Forms when medium-mass stars lose their outer layers.",
+          "Contains gases like hydrogen and helium, illuminated by the radiation of the central white dwarf."
+        ],
+        "image": "images/stars/star_6.png"
+      },
+      {
+        "key": "7",
+        "label": "Supernova",
+        "paragraph": "A massive explosion that occurs when a massive star runs out of fuel or due to a nuclear reaction in a white dwarf.",
+        "bullets": [
+          "Occurs due to a sudden gravitational collapse in a massive star or an explosion caused by material accumulation on a white dwarf.",
+          "Releases enormous energy and heavy elements into space, contributing to the formation of new stars.",
+          "Can lead to the formation of a neutron star or a black hole."
+        ],
+        "image": "images/stars/star_7.png"
+      },
+      {
+        "key": "8",
+        "label": "White Dwarf",
+        "paragraph": "The remnant of a medium-mass star after losing its outer layers.",
+        "bullets": [
+          "Extremely dense, roughly the size of Earth but with a mass close to that of the Sun.",
+          "No new nuclear reactions occur, but it cools very slowly over time.",
+          "May transform into a black dwarf when it completely loses its heat (after billions of years)."
+        ],
+        "image": "images/stars/star_8.png"
+      },
+      {
+        "key": "9",
+        "label": "Neutron Star",
+        "paragraph": "The collapsed core of a massive star, composed almost entirely of neutrons.",
+        "bullets": [
+          "Extremely dense, where a teaspoon of it can weigh billions of tons.",
+          "Spins rapidly and may emit radio pulses (called a pulsar).",
+          "Forms after a supernova of a massive star but was not massive enough to become a black hole."
+        ],
+        "image": "images/stars/star_9.png"
+      },
+      {
+        "key": "10",
+        "label": "Black Hole",
+        "paragraph": "A region in space with gravity so strong that even light cannot escape.",
+        "bullets": [
+          "Forms when a very massive star collapses on itself after a supernova explosion.",
+          "Has an event horizon, the boundary beyond which nothing can escape without being swallowed.",
+          "There are types of it, such as stellar black holes and supermassive black holes in the centers of galaxies."
+        ],
+        "image": "images/stars/star_10.png"
+      }
+    ]
   }
 }

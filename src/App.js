@@ -3,9 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Home from "./pages/Home";
 import SolarSystem from "./pages/SolarSystem";
-import Sun from "./pages/Sun";
 import Moon from "./pages/Moon";
-import Mars from "./pages/Mars";
+import Stars from "./pages/Stars";
 import Navbar from "./components/Navbar";
 import "./App.css";
 
@@ -17,9 +16,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/solar-system" element={<SolarSystem />} />
-          <Route path="/sun" element={<Sun />} />
           <Route path="/moon" element={<Moon />} />
-          <Route path="/mars" element={<Mars />} />
+          <Route path="/stars" element={<Stars />} />
         </Routes>
       </AnimatePresence>
     </Router>

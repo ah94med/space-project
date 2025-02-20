@@ -1,0 +1,108 @@
+{
+  "name": "The Moon",
+  "content": [
+    {
+      "key": "1",
+      "label": "Orbit Around Earth",
+      "sections": [
+        {
+          "key": "1.1",
+          "label": "Orbit",
+          "text": "The Moon orbits the Earth in an elliptical orbit (oval) with an average distance of 384,400 km."
+        },
+        {
+          "key": "1.2",
+          "label": "Duration",
+          "text": "The Moon takes 27.3 days to complete one orbit around the Earth (orbital period)."
+        },
+        {
+          "key": "1.3",
+          "label": "Synchronous Rotation",
+          "text": "The Moon rotates on its axis at the same rate as it rotates around the Earth, so we always see the same face of the Moon."
+        },
+        {
+          "key": "1.4",
+          "label": "Tilt",
+          "text": "The Moon's orbit is tilted about 5.8 degrees from the plane of the Earth's orbit around the Sun."
+        },
+        {
+          "key": "1.5",
+          "label": "Tides",
+          "text": "The Moon's gravitational influence on the Earth causes the phenomenon of tides in the oceans."
+        },
+        {
+          "key": "1.6",
+          "label": "Distance Variation",
+          "text": "Due to the elliptical shape of the orbit, the Moon's distance ranges between 356,500 km (perigee) and 406,700 km (apogee)."
+        }
+      ]
+    },
+    {
+      "key": "2",
+      "label": "Phases During the Month",
+      "sections": [
+        {
+          "key": "2.1",
+          "label": "First Quarter",
+          "text": "The date is from 4-7 of the month and the half of the moon facing us is illuminated."
+        },
+        {
+          "key": "2.2",
+          "label": "First Gibbous",
+          "text": "It appears from 8-12 of the month and the dark part is in the shape of a crescent with its base pointing east and the illuminated part in the middle points to the place of sunset."
+        },
+        {
+          "key": "2.3",
+          "label": "Full Moon",
+          "text": "It appears from 13-15 of the month and is called the reception phase and the moon has completed approximately 180 degrees."
+        },
+        {
+          "key": "2.4",
+          "label": "Terminal Gibbous",
+          "text": "It appears from 16-19 and the dark part is in the shape of a dark crescent with its base pointing completely west."
+        },
+        {
+          "key": "2.5",
+          "label": "Second Quarter",
+          "text": "It appears from 20-24 and the half of the moon facing us is illuminated."
+        },
+        {
+          "key": "2.6",
+          "label": "Last Crescent",
+          "text": "It appears from 25-29 and is the end of the month crescent and its horns point to the west and the illuminated part points in the direction of the sun."
+        }
+      ]
+    },
+    {
+      "key": "3",
+      "label": "Lunar Eclipse",
+      "sections": [
+        {
+          "key": "3.1",
+          "label": "Lunar Eclipse",
+          "text": "A lunar eclipse is an astronomical phenomenon that occurs when the Earth lies between the Sun and the Moon, partially or completely blocking sunlight from the Moon. An eclipse only occurs when the moon is in the full moon phase."
+        },
+        {
+          "key": "3.2",
+          "label": "Total Eclipse",
+          "text": "It occurs when the Moon completely enters the Earth's shadow (Umbra). The color of the moon turns red or orange due to the refraction of sunlight in the Earth's atmosphere, in what is known as the 'blood moon.'"
+        },
+        {
+          "key": "3.3",
+          "label": "Partial Eclipse",
+          "text": "It occurs when only part of the Moon enters the Earth's shadow. Part of the moon appears dark while the other part remains bright."
+        },
+        {
+          "key": "3.4",
+          "label": "Penumbral Eclipse",
+          "text": "It occurs when the Moon enters the Earth's semi-shadow (Penumbra), which leads to a slight decrease in the Moon's brightness without a clear shadow appearing on it."
+        },
+        {
+          "key": "3.5",
+          "label": "Duration of the Eclipse",
+          "text": "A total lunar eclipse can last more than an hour, while a partial or penumbral eclipse can take a shorter duration."
+        }
+      ]
+    }
+  ]
+} 

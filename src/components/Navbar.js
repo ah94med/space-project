@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css"; // Optional: For custom styling
-import RocketLogo from "../assets/logo/rocket.svg"; // Import the SVG logo
+import Logo from "../assets/logo/logo.png"; // Import the SVG logo
 import { MenuOutlined, CloseOutlined } from "@ant-design/icons"; // Import icons for hamburger menu
 import { useTranslation } from "react-i18next"; // Import useTranslation
 
@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="logo-container">
         <Link to="/">
           <img
-            src={RocketLogo}
+            src={Logo}
             alt="Rocket Logo"
             style={{ width: "50px", height: "50px", cursor: "pointer" }}
           />
@@ -53,13 +53,6 @@ const Navbar = () => {
             {t('navbar.solarSystem')}
           </Link>
           <Link
-            to="/sun"
-            className={location.pathname === "/sun" ? "active" : ""}
-            onClick={toggleMenu} // Close menu when a link is clicked
-          >
-            {t('navbar.sun')}
-          </Link>
-          <Link
             to="/moon"
             className={location.pathname === "/moon" ? "active" : ""}
             onClick={toggleMenu} // Close menu when a link is clicked
@@ -67,11 +60,11 @@ const Navbar = () => {
             {t('navbar.moon')}
           </Link>
           <Link
-            to="/mars"
-            className={location.pathname === "/mars" ? "active" : ""}
+            to="/stars"
+            className={location.pathname === "/stars" ? "active" : ""}
             onClick={toggleMenu} // Close menu when a link is clicked
           >
-            {t('navbar.mars')}
+            {t('navbar.stars')}
           </Link>
 
           {/* Language Switcher */}

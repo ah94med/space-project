@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import "./Home.css"; // Optional: For custom styling
-import RocketLogo from "../assets/logo/rocket.svg"; // Import the SVG logo
+import Brand from "../assets/logo/brand.png"; // Import the SVG logo
 import spaceBackgroundMP4 from "../assets/videos/space-background.mp4";
 import spaceBackgroundWEBM from "../assets/videos/space-background.webm";
 import { useTranslation } from 'react-i18next';
@@ -55,9 +55,9 @@ const Home = () => {
       }}>
         {/* Add the SVG logo */}
         <img
-          src={RocketLogo}
+          src={Brand}
           alt="Rocket Logo"
-          style={{ width: "100px", height: "100px", marginBottom: "1rem" }}
+          style={{ height: "300px", marginBottom: "1rem" }}
         />
         <h1>{t('home.welcome')}</h1>
         <p>{t('home.description')}</p>

@@ -12,8 +12,6 @@ import neptuneWebM from "../assets/videos/planets/neptune.webm"
 import earthWebM from "../assets/videos/planets/earth.webm"
 import uranusWebM from "../assets/videos/planets/uranus.webm"
 import saturnWebM from "../assets/videos/planets/saturn.webm"
-
-import { InfoCircleOutlined } from "@ant-design/icons";
 import { useTranslation } from "react-i18next"; // Import useTranslation
 
 const SolarSystem = () => {

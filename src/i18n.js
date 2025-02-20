@@ -3,13 +3,17 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import translationEN from './locales/en/translation.json';
 import translationAR from './locales/ar/translation.json';
+import moonEN from './locales/en/moon.json';
+import moonAR from './locales/ar/moon.json';
 
 const resources = {
   en: {
     translation: translationEN,
+    moon: moonEN,
   },
   ar: {
     translation: translationAR,
+    moon: moonAR,
   },
 };
 
