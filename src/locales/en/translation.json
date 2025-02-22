@@ -417,28 +417,29 @@
           },
           {
             "key": "3.2",
-            "label": "Total Eclipse",
-            "text": "Occurs when the Moon fully enters the Earth's shadow (Umbra). The Moon turns red or orange due to the refraction of sunlight in Earth's atmosphere, known as a 'Blood Moon'.",
+            "label": "Duration of Eclipse",
+            "text": "A total lunar eclipse can last for over an hour, while a partial or penumbral eclipse may last for a shorter duration.",
             "image": "images/moon/eclipse/eclipse_1.png"
           },
           {
             "key": "3.3",
-            "label": "Partial Eclipse",
-            "text": "Occurs when only part of the Moon enters the Earth's shadow. Part of the Moon appears dark while the rest remains illuminated.",
-            "image": "images/moon/eclipse/eclipse_1.png"
+            "label": "Total Eclipse",
+            "text": "Occurs when the Moon fully enters the Earth's shadow (Umbra). The Moon turns red or orange due to the refraction of sunlight in Earth's atmosphere, known as a 'Blood Moon'.",
+            "image": "images/moon/eclipse/eclipse_2.png"
           },
           {
             "key": "3.4",
             "label": "Penumbral Eclipse",
             "text": "Occurs when the Moon enters the Earth's penumbra, causing a slight dimming of the Moon's brightness without a clear shadow.",
-            "image": "images/moon/eclipse/eclipse_1.png"
+            "image": "images/moon/eclipse/eclipse_3.png"
           },
           {
             "key": "3.5",
-            "label": "Duration of Eclipse",
-            "text": "A total lunar eclipse can last for over an hour, while a partial or penumbral eclipse may last for a shorter duration.",
-            "image": "images/moon/eclipse/eclipse_1.png"
+            "label": "Partial Eclipse",
+            "text": "Occurs when only part of the Moon enters the Earth's shadow. Part of the Moon appears dark while the rest remains illuminated.",
+            "image": "images/moon/eclipse/eclipse_4.png"
           }
+          
         ]
       }
     ]
